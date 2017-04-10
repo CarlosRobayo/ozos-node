@@ -1,0 +1,20 @@
+.container {
+    margin: 13% auto;
+    width: 40%;
+}
+
+.index {
+    background-color: #ededed;
+    border-radius: 20px; 
+    padding: 5% 5%;
+}
+
+button {
+    float: right;
+    font-family: 'Pacifico', cursive;
+}
+
+h4, label {
+    color: #000000;
+    font-family: 'Pacifico', cursive;
+}
