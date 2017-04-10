@@ -3,6 +3,8 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
+const port = process.env.PORT || 8000  
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/public'));
 
@@ -19,6 +21,4 @@ app.post('/historia', function (req, res) {
     }
 });
 
-app.listen(8000, function () {
-    console.log('Esperando peticiones en el puerto 8000');
-});
+app.listen(port);
