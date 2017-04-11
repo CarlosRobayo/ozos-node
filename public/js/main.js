@@ -5,13 +5,13 @@ window.onload = function () {
     input.addEventListener('blur', function () {
         if (this.value == '') {
             this.style.background = '#f2dede';
-            this.className = 'form-control animated shake';
+            this.className = 'form-control text-center animated shake';
         }
     });
 
     input.addEventListener('focus', function () {
         this.style.background = '#ffffff';
-        this.className = 'form-control';
+        this.className = 'form-control text-center';
     });
 
 }
